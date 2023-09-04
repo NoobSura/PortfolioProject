@@ -467,7 +467,8 @@ you can verify click the ... near any table >> new SQL script >> select top 100 
 click run to verify
 <img width="458" alt="image" src="https://github.com/NoobSura/PortfolioProject/assets/80252306/f6492303-66b1-4c52-99e3-52d7d465c078">
 
-I have attached the spark code link for reference.
+I have attached the sql codes to play around.
+
 
 
 
