@@ -7,7 +7,7 @@ Apps used in this project includes
 * App registration (for mounting data bricks to data lake)
 * Azure Data Bricks ( to transform data)
 * Azure Synapse Analytics ( to analyse data)
-* Tableau ( to visualize data)
+* PowerBI ( to visualize data)
 
 The flow goes as below:
 # Dataset from Kaggle >> Azure Data Factories >> Azure Data Lake - 1 >> Azure Data Bricks >> Azure Data Lake - 2 >> Azure Synapse Analytics >> Tableau
@@ -468,6 +468,28 @@ click run to verify
 <img width="458" alt="image" src="https://github.com/NoobSura/PortfolioProject/assets/80252306/f6492303-66b1-4c52-99e3-52d7d465c078">
 
 I have attached the sql codes to play around.
+
+
+11. Visualise with Power BI
+I am doing it via PowerBI desktop app which is free
+
+we can also do it via exporting your synapse directly to powerBI 
+
+In powerBI goto home get data select text/CSV
+
+<img width="267" alt="image" src="https://github.com/NoobSura/PortfolioProject/assets/80252306/ab13db04-97ce-49cf-8287-c100e8526301">
+
+select the file you want to model
+<img width="238" alt="image" src="https://github.com/NoobSura/PortfolioProject/assets/80252306/2c895ecc-5c81-4c9d-b29e-a18d0a930d6c">
+
+check whether the table is proper; if so  click load or click transform data to make changes
+![image](https://github.com/NoobSura/PortfolioProject/assets/80252306/b0b37be9-5896-4016-9447-e9261ad8af3c)
+
+Here my first row is not my header so I went to transform it and click close and apply it will transform the data.
+likewise repeat it for all the tables
+
+![image](https://github.com/NoobSura/PortfolioProject/assets/80252306/214ef8e1-cd92-41c0-a936-b3f2b1aa9559)
+
 
 
 
